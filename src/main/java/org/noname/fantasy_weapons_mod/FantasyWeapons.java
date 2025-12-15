@@ -13,6 +13,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import org.noname.fantasy_weapons_mod.entity.ModEntities;
 import org.noname.fantasy_weapons_mod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,7 @@ public class FantasyWeapons {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
