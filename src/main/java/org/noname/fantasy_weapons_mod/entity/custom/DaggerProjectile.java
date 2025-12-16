@@ -31,6 +31,6 @@ public class DaggerProjectile extends AbstractArrow {
 
     @Override
     protected @NotNull ItemStack getDefaultPickupItem() {
-        return new ItemStack(ModItems.DAGGER.get(), 1);
+        return this.getWeaponItem();
     }
 }
