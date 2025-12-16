@@ -17,5 +17,6 @@ public class ModItems {
         ITEMS.register(bus);
     }
 
-    public static final DeferredItem<Item> DAGGER = ITEMS.register("dagger", () -> new Dagger(Tiers.IRON, new Item.Properties().attributes(Dagger.createAttributes())));
+    public static final DeferredItem<Item> DAGGER = ITEMS.register("dagger", () -> new Dagger(Tiers.IRON,
+            new Item.Properties().attributes(Dagger.createAttributes(Tiers.IRON, -1.5))));
 }
