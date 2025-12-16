@@ -1,3 +1,7 @@
 {
-  "item.fantasy_weapons_mod.dagger": "Dagger"
+  "item.fantasy_weapons_mod.iron_dagger": "Iron Dagger",
+  "item.fantasy_weapons_mod.iron_double_sided_axe": "Iron Double-Sided Axe",
+  "item.fantasy_weapons_mod.iron_greatsword": "Iron Greatsword",
+  "item.fantasy_weapons_mod.iron_halberd": "Iron Halberd",
+  "item.fantasy_weapons_mod.sledgehammer": "Sledgehammer"
 }

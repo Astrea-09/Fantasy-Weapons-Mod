@@ -56,8 +56,30 @@ public class FantasyWeapons {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.DAGGER);
+            //daggers
+            event.accept(ModItems.IRON_DAGGER);
+            event.accept(ModItems.GOLD_DAGGER);
+            event.accept(ModItems.DIAMOND_DAGGER);
+            event.accept(ModItems.NETHERITE_DAGGER);
+            //double-sided axes
+            event.accept(ModItems.IRON_DOUBLE_SIDED_AXE);
+            event.accept(ModItems.GOLD_DOUBLE_SIDED_AXE);
+            event.accept(ModItems.DIAMOND_DOUBLE_SIDED_AXE);
+            event.accept(ModItems.NETHERITE_DOUBLE_SIDED_AXE);
+            //greatswords
+            event.accept(ModItems.IRON_GREATSWORD);
+            event.accept(ModItems.GOLD_GREATSWORD);
+            event.accept(ModItems.DIAMOND_GREATSWORD);
+            event.accept(ModItems.NETHERITE_GREATSWORD);
+            //halberds
+            event.accept(ModItems.IRON_HALBERD);
+            event.accept(ModItems.GOLD_HALBERD);
+            event.accept(ModItems.DIAMOND_HALBERD);
+            event.accept(ModItems.NETHERITE_HALBERD);
+            //sledgehammer
+            event.accept(ModItems.SLEDGEHAMMER);
         }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

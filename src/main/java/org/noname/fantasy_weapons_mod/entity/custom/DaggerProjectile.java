@@ -22,7 +22,7 @@ public class DaggerProjectile extends AbstractArrow {
     }
 
     public DaggerProjectile(LivingEntity shooter, Level level) {
-        super(ModEntities.DAGGER_PROJECTILE.get(), shooter, level, new ItemStack(ModItems.DAGGER.get()), null);
+        super(ModEntities.DAGGER_PROJECTILE.get(), shooter, level, new ItemStack(ModItems.IRON_DAGGER.get()), null);
     }
 
     public DaggerProjectile(Level level, double x, double y, double z, ItemStack itemStack) {
