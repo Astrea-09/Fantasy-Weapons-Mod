@@ -1,7 +1,19 @@
 {
   "item.fantasy_weapons_mod.iron_dagger": "Iron Dagger",
+  "item.fantasy_weapons_mod.gold_dagger": "Gold Dagger",
+  "item.fantasy_weapons_mod.diamond_dagger": "Diamond Dagger",
+  "item.fantasy_weapons_mod.netherite_dagger": "Netherite Dagger",
   "item.fantasy_weapons_mod.iron_double_sided_axe": "Iron Double-Sided Axe",
+  "item.fantasy_weapons_mod.gold_double_sided_axe": "Gold Double-Sided Axe",
+  "item.fantasy_weapons_mod.diamond_double_sided_axe": "Diamond Double-Sided Axe",
+  "item.fantasy_weapons_mod.netherite_double_sided_axe": "Netherite Double-Sided Axe",
   "item.fantasy_weapons_mod.iron_greatsword": "Iron Greatsword",
+  "item.fantasy_weapons_mod.gold_greatsword": "Gold Greatsword",
+  "item.fantasy_weapons_mod.diamond_greatsword": "Diamond Greatsword",
+  "item.fantasy_weapons_mod.netherite_greatsword": "Netherite Greatsword",
   "item.fantasy_weapons_mod.iron_halberd": "Iron Halberd",
+  "item.fantasy_weapons_mod.gold_halberd": "Gold Halberd",
+  "item.fantasy_weapons_mod.diamond_halberd": "Diamond Halberd",
+  "item.fantasy_weapons_mod.netherite_halberd": "Netherite Halberd",
   "item.fantasy_weapons_mod.sledgehammer": "Sledgehammer"
 }
