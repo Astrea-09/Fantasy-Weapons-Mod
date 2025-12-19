@@ -78,6 +78,8 @@ public class FantasyWeapons {
             event.accept(ModItems.NETHERITE_HALBERD);
             //sledgehammer
             event.accept(ModItems.SLEDGEHAMMER);
+            //longbow
+            //event.accept(ModItems.LONGBOW);
         }
 
     }

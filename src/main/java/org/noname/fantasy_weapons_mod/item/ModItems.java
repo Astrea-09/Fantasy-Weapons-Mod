@@ -72,5 +72,8 @@ public class ModItems {
     //sledgehammer
     public static final DeferredItem<Item> SLEDGEHAMMER = ITEMS.register("sledgehammer", () -> new Sledgehammer(Tiers.IRON,
             new Item.Properties().attributes(Sledgehammer.createAttributes(Tiers.IRON, -3.5))));
+
+    //longbow
+    //public static final DeferredItem<Item> LONGBOW = ITEMS.register("longbow", () -> new Longbow(new Item.Properties()));
 }
 
