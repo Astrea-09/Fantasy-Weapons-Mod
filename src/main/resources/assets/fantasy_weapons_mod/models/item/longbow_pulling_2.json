@@ -1,0 +1,6 @@
+{
+  "parent": "fantasy_weapons_mod:item/longbow",
+  "textures": {
+    "layer0": "fantasy_weapons_mod:item/longbow_pulling_2"
+  }
+}
