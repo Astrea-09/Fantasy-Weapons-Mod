@@ -17,6 +17,7 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.noname.fantasy_weapons_mod.entity.ModEntities;
 import org.noname.fantasy_weapons_mod.item.ModItems;
+import org.noname.fantasy_weapons_mod.item.util.ModItemProperties;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -81,7 +82,7 @@ public class FantasyWeapons {
             //longbow
             //event.accept(ModItems.LONGBOW);
             //magic staff
-            event.accept(ModItems.MAGIC_STAFF);
+            //event.accept(ModItems.MAGIC_STAFF);
         }
 
     }
@@ -97,7 +98,7 @@ public class FantasyWeapons {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
