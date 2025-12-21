@@ -30,21 +30,21 @@
       "predicate": {
         "pulling": 1
       },
-      "model": "neoforge_test:item/sample_bow_pulling_0"
+      "model": "fantasy_weapons_mod:item/longbow_pulling_0"
     },
     {
       "predicate": {
         "pulling": 1,
         "pull": 0.65
       },
-      "model": "neoforge_test:item/sample_bow_pulling_1"
+      "model": "fantasy_weapons_mod:item/longbow_pulling_1"
     },
     {
       "predicate": {
         "pulling": 1,
         "pull": 0.9
       },
-      "model": "neoforge_test:item/sample_bow_pulling_2"
+      "model": "fantasy_weapons_mod:item/longbow_pulling_2"
     }
   ]
 }

@@ -82,7 +82,7 @@ public class FantasyWeapons {
             //longbow
             //event.accept(ModItems.LONGBOW);
             //magic staff
-            //event.accept(ModItems.MAGIC_STAFF);
+            event.accept(ModItems.MAGIC_STAFF);
         }
 
     }
