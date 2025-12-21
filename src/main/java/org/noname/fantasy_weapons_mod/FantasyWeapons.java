@@ -80,7 +80,7 @@ public class FantasyWeapons {
             //sledgehammer
             event.accept(ModItems.SLEDGEHAMMER);
             //longbow
-            event.accept(ModItems.LONGBOW);
+            //event.accept(ModItems.LONGBOW);
             //magic staff
             //event.accept(ModItems.MAGIC_STAFF);
         }
