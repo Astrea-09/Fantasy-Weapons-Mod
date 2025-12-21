@@ -78,6 +78,6 @@ public class ModItems {
             Longbow.Properties().durability(300).stacksTo(1)));
 
     //magic staff
-    public static final DeferredItem<Item> MAGIC_STAFF = ITEMS.register("magic staff", () -> new MagicStaff(new Item.Properties()));
+    public static final DeferredItem<Item> MAGIC_STAFF = ITEMS.register("magic_staff", () -> new MagicStaff(new Item.Properties()));
 }
 
