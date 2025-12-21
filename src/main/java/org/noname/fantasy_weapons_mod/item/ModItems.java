@@ -74,9 +74,9 @@ public class ModItems {
             new Item.Properties().attributes(Sledgehammer.createAttributes(Tiers.IRON, -3.5))));
 
     //longbow
-    public static final DeferredItem<Item> LONGBOW = ITEMS.register("longbow", () -> new Longbow(new Item.Properties()));
+    //public static final DeferredItem<Item> LONGBOW = ITEMS.register("longbow", () -> new Longbow(new Item.Properties()));
 
     //magic staff
-    public static final DeferredItem<Item> MAGIC_STAFF = ITEMS.register("magic staff", () -> new MagicStaff(/*new Item.Properties()*/));
+    public static final DeferredItem<Item> MAGIC_STAFF = ITEMS.register("magic staff", () -> new MagicStaff(new Item.Properties()));
 }
 
